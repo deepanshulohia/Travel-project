@@ -1,0 +1,180 @@
+
+
+.visi{
+    color: #fca503
+}
+.form-inline{
+    padding-right: 50px;
+}
+.navbar .navbar-brand{
+    margin-right: 50px;
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+ 
+  .capital{
+    font-weight: bold;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+  }
+  
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    padding: 65px;
+    margin: 0;
+    align-items: center;
+   
+    
+}
+ .container img{
+    max-width: 100%;
+    height: 90vh;
+    object-fit: cover;  
+    border-radius: 3px;
+  
+      
+
+}
+
+.custom-image2{
+   filter: blur(1px);
+    filter: brightness(70%)
+}
+
+ .text {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    transform: translate(-50%, 50%);
+}
+.mytext{
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 36%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    transform: translate(-50%, 50%);
+}
+.mytext span:after{
+
+    content: "Italy";
+   animation: jaadu 10s infinite;
+   color: #fca503;
+   
+}
+@keyframes jaadu{
+   
+    20%{
+        content: "Germany";
+        
+       
+    }
+    40%{
+        content: "India";
+        
+
+    }
+    60%{
+        content: "USA";
+        
+
+    }
+  80%{
+    content: "Netherland";
+    
+  }
+   
+}
+.bttn{
+    position: absolute;
+    left: 46%;
+    top: 73%;
+    align-items: center;
+    
+    
+}
+.loren{
+    position: absolute;
+    left: 34%;
+    top: 64%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px black;
+    
+}
+form{
+    margin-top: 41px;
+}
+
+#mountain{
+    margin-right: 0;
+    margin-left: 49px;
+}
+.book{
+    display: flex;
+    float: right;
+    margin-bottom: 60px;
+    
+}
+#bookingForm{
+    float: left;
+}
+.card{
+    height: 35rem; 
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      
+}
+.bokk{
+    color: #fca503;
+}
+.packy {
+    color: #fca503;
+}
+#services{
+    margin-top: 0;
+}
+.gallery-img {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 40px;
+  
+    
+  }
+
+  .gallery-img:hover {
+    transform: scale(1.1);
+  }
+  .gallery-img-container {
+    height: 300px; 
+    overflow: hidden; 
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+  }
+ 
+  .full-image-container {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .py-5{
+    margin-top: -100px;
+  }
